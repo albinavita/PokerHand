@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.hand.PokerHandTest" time="0.083" tests="12" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="D:\GamePoker\poker\target\test-classes;D:\GamePoker\poker\target\classes;C:\Users\VitaAlba\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\VitaAlba\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\VitaAlba\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\VitaAlba\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\VitaAlba\AppData\Local\Temp\surefire15855867939186871528\surefirebooter-20231026231335196_3.jar C:\Users\VitaAlba\AppData\Local\Temp\surefire15855867939186871528 2023-10-26T23-13-35_071-jvmRun1 surefire-20231026231335196_1tmp surefire_0-20231026231335196_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\GamePoker\poker\target\test-classes;D:\GamePoker\poker\target\classes;C:\Users\VitaAlba\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\VitaAlba\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\VitaAlba\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\VitaAlba\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\VitaAlba"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\GamePoker\poker"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\VitaAlba\AppData\Local\Temp\surefire15855867939186871528\surefirebooter-20231026231335196_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
+    <property name="user.name" value="VitaAlba"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\VitaAlba\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\VitaAlba\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2023.2.3"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="D:\GamePoker\poker"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\системный администратор\установка\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files\Java\jdk-17.0.2\\bin;d:\components\gradle-7.5.1\\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;E:\системный администратор\putty\;C:\Program Files\dotnet\;C:\Program Files\PowerShell\7\;d:\glassfish\glassfish6\bin;d:\libraryJar\wildfly-28.0.0.Final\bin;C:\Program Files\Git\cmd;E:\Go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\VitaAlba\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 232.8453.116\bin;;d:\Maven\maven\bin;d:\components\gradle-7.5.1\\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\VitaAlba\AppData\Local\GitHubDesktop\bin;d:\glassfish\glassfish6\bin;C:\Users\VitaAlba\go\bin;C:\Program Files\JetBrains\GoLand 2023.1.3\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="result_STRAIGHT_FLUSH" classname="org.example.hand.PokerHandTest" time="0.026">
+    <system-out><![CDATA[STRAIGHT_FLUSH
+]]></system-out>
+  </testcase>
+  <testcase name="result_TWO_PAIRS" classname="org.example.hand.PokerHandTest" time="0.001">
+    <system-out><![CDATA[TWO_PAIRS
+]]></system-out>
+  </testcase>
+  <testcase name="compareTo" classname="org.example.hand.PokerHandTest" time="0.002"/>
+  <testcase name="compareTo_All" classname="org.example.hand.PokerHandTest" time="0.007">
+    <system-out><![CDATA[PokerHand{gameCards='JC TC AC QC KC' : combination='ROYAL_FLUSH'}
+PokerHand{gameCards='QC KC JC TC 9C' : combination='STRAIGHT_FLUSH'}
+PokerHand{gameCards='KS 8C KC KH KD' : combination='FOUR_OF_KIND'}
+PokerHand{gameCards='2C 2S TH TC TD' : combination='FULL_HOUSE'}
+PokerHand{gameCards='2C 3C AC 4C 5C' : combination='FLUSH'}
+PokerHand{gameCards='7C 8C JC TC 9D' : combination='STRAIGHT'}
+PokerHand{gameCards='7C 8C 7H TC 7D' : combination='THREE_OF_KIND'}
+PokerHand{gameCards='7C QC 7H QH KD' : combination='TWO_PAIRS'}
+PokerHand{gameCards='7C 8C JC TC 7D' : combination='PAIR'}
+PokerHand{gameCards='KS 2H 5C JD TD' : combination='HIGH_CARD'}
+
+PokerHand{gameCards='JC TC AC QC KC' : combination='ROYAL_FLUSH'}
+PokerHand{gameCards='QC KC JC TC 9C' : combination='STRAIGHT_FLUSH'}
+PokerHand{gameCards='KS 8C KC KH KD' : combination='FOUR_OF_KIND'}
+PokerHand{gameCards='2C 2S TH TC TD' : combination='FULL_HOUSE'}
+PokerHand{gameCards='2C 3C AC 4C 5C' : combination='FLUSH'}
+PokerHand{gameCards='7C 8C JC TC 9D' : combination='STRAIGHT'}
+PokerHand{gameCards='7C 8C 7H TC 7D' : combination='THREE_OF_KIND'}
+PokerHand{gameCards='7C QC 7H QH KD' : combination='TWO_PAIRS'}
+PokerHand{gameCards='7C 8C JC TC 7D' : combination='PAIR'}
+PokerHand{gameCards='KS 2H 5C JD TD' : combination='HIGH_CARD'}
+]]></system-out>
+  </testcase>
+  <testcase name="result_PAIR" classname="org.example.hand.PokerHandTest" time="0.002">
+    <system-out><![CDATA[PAIR
+]]></system-out>
+  </testcase>
+  <testcase name="result_STRAIGHT" classname="org.example.hand.PokerHandTest" time="0.001">
+    <system-out><![CDATA[STRAIGHT
+]]></system-out>
+  </testcase>
+  <testcase name="result_FULL_HOUSE" classname="org.example.hand.PokerHandTest" time="0.005">
+    <system-out><![CDATA[FULL_HOUSE
+]]></system-out>
+  </testcase>
+  <testcase name="result_FLUSH" classname="org.example.hand.PokerHandTest" time="0.002">
+    <system-out><![CDATA[FLUSH
+]]></system-out>
+  </testcase>
+  <testcase name="result_HIGH_CARD" classname="org.example.hand.PokerHandTest" time="0.001">
+    <system-out><![CDATA[HIGH_CARD
+]]></system-out>
+  </testcase>
+  <testcase name="result_FOUR_OF_KIND" classname="org.example.hand.PokerHandTest" time="0.001">
+    <system-out><![CDATA[FOUR_OF_KIND
+]]></system-out>
+  </testcase>
+  <testcase name="result_ROYAL_FLUSH" classname="org.example.hand.PokerHandTest" time="0.001">
+    <system-out><![CDATA[ROYAL_FLUSH
+]]></system-out>
+  </testcase>
+  <testcase name="result_THREE_OF_KIND" classname="org.example.hand.PokerHandTest" time="0.001">
+    <system-out><![CDATA[THREE_OF_KIND
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,4 @@
+org\example\hand\PokerHand.class
+org\example\App.class
+org\example\PokerCombination.class
+org\example\exception\PokerException.class
